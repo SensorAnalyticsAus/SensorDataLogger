@@ -1,7 +1,7 @@
 # Sensor Data Logger
 
 ## About
-This utility translates usb mic audio into vibration data and sends it as mqtt messages. It can also read any sensor data from say `gpio` and include it in messages. Background noise cancelling can be done by adding a second mic located further from monitored and subtracting its readings. Source code acts as further documentation.
+This utility translates usb mic audio into vibration data and sends it as mqtt messages. It can also read any sensor data from say `gpio` and include it in messages. Background noise cancelling can be done by adding a second mic located further from monitored source and subtracting its readings. Suitable for monitoring electric motors. Refer to source code for further information.
 
 ## Requirements
 * Raspberry Pi
